@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['Myzus persicae', 'Plum tinder fungus', 'Sulphur-yellow tinder fungus', 'Verticillium wilt', 'baldness', 'branches_drying', 'chlorosis', 'gommosis', 'hollow', 'kap', 'late_blight', 'leaf_curl', 'leaf_spot', 'lichen', 'mechanical damage', 'moliniosis', 'mummified_fruits', 'pseudococcidae', 'shot_hole', 'soot dew']
+
+roboflow:
+  workspace: mian-nnheh
+  project: almond-diseases
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mian-nnheh/almond-diseases/dataset/3
